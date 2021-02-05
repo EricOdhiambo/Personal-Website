@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<h2>
+   <title>Contact us</title><h1>Contact us</h1>
+</h2>
+<body>
+    <form method="post" *autocomplete="on" action="http://erickodhiambo.co.ke">
+	<p><h3>Suggest this site to people:<h3></p>
+	<p><label> First name:
+	   <input type="text" id="First name" placeholder="first name"></label></p>
+    <p><label>Middle name:
+	   <input type="text" id="middle name" placeholder="middle name"></label></p>
+	<p><label> Last name:
+       <input type="text" id="last name" placeholder="last name"></label></p>
+    <p><label> E-mail:
+	   <input type="e-mail" id="e-mail" placeholder="e-mail"/>(someone@gmail.com)</label></p>
+	<p><label> Enter your password:
+	   <input type="password" id="password" placeholder="password"  autocomplete="off"/>(use 4 alphabets and 4 special characters for your password)</label></p>
+	   
+  <p>
+      <p>Enter birth details</p>
+      <label for="txtlist">month:
+	  <input type="text" id ="txtlist" placeholder="select month" list="months"/>
+	  <datalist id="months">
+	      <option value="January">
+		  <option value="February">
+		  <option value="March">
+		  <option value="April">
+		  <option value="May">
+		  <option value="June">
+		  <option value="July">
+		  <option value="August">
+		  <option value="September">
+		  <option value="October">
+		  <option value="November">
+		  <option value="December">
+	  </datalist>
+	  <p><label>date:
+	  <input type="date" name="date of birth"></label></p>
+	  
+	  <p><label>Telephone:(start with country code e.g +254)
+	     <input type="tel" name="usrtel" ></label></p>
+	  </label></p>   
+
+  <p>
+      <label>Choose your prefered color:
+      <input type="color" name="color"></label></p>	  
+  <p>
+	  <label>Votes:
+      <input type="range" name="vote" min="0" max="100">	  
+	  </label></p>
+	  <input type="submit" name="submit">
+	  <input type="reset" name="clear">
+</body>
+</html>
